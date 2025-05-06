@@ -3,6 +3,7 @@
  * @type {import("prettier").Config}
  */
 const config = {
+  plugins: [],
   singleQuote: true,
   semi: true,
   useTabs: false,

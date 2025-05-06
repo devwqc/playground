@@ -21,7 +21,9 @@ const ThemeImage = (props: Props) => {
 export default function Home() {
   return (
     <div className={styles.page}>
-      <header className="text-pink-400">tailwindcss 테스트</header>
+      <header className="text-xl font-bold text-pink-400">
+        tailwindcss 테스트
+      </header>
       <main className={styles.main}>
         <ThemeImage
           className={styles.logo}
